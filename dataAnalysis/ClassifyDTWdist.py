@@ -101,10 +101,11 @@ def classify():
     #plt.plot(smoothSeries(d_bw_1_DTW), color='blue', label='Neutral')
     #plt.plot(smoothSeries(d_bw_0_DTW), color='green', label='Positive')
     #plt.legend()
-    plt.figure()
+    plt.figure(figsize=(10, 6))
     plt.plot(d_bw_2_DTW, color='red', label='Negative')
     plt.plot(d_bw_1_DTW, color='blue', label='Neutral')
     plt.plot(d_bw_0_DTW, color='green', label='Positive')
+    plt.legend(loc='best')
     plt.show()
 
 classify()

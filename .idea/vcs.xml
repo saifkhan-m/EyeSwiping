@@ -2,5 +2,8 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/TS-CHIEF" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/dl-4-tsc-master/sktime-dl" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/tsml" vcs="Git" />
   </component>
 </project>

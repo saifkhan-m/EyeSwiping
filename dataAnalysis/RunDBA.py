@@ -93,7 +93,7 @@ def DBALIBPeakValley(type):
         x_value = np.array(range(lowestValley, highestPeak + 1))
         y_val = y_val[lowestValley: highestPeak + 1]
         series.append(y_val)
-        plt.plot(x_value, y_val)
+        #plt.plot(x_value, y_val)
 
     with open('../dataAnalysis/DTW_obj/DTW_Train'+str(type)+'_.obj', 'rb') as f:
         s2=pickle.load( f)

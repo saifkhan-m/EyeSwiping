@@ -27,8 +27,8 @@ def plotMean(cut=False):
     pyplot.figure(figsize=(10, 6))
     an.plotPeakValleyGen(mean_all, peaks_valleys, np.array(range(291)),cut)
 
-#plotMean(True)
-plotMean()
+plotMean(True)
+#plotMean()
 
 
 #plotMedian()
